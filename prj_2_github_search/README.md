@@ -25,20 +25,11 @@ you will be getting API responses like this one:
       "message": "API rate limit exceeded for XXX.XXX.XXX.XXX. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
       "documentation_url": "https://developer.github.com/v3/#rate-limiting"
     }
-    
+
 This application is very simple and don't manage this problem in a more user friendly way
 
 
 
 ## Other infos and Prerequisites
 
-This application was created from the Getting Started boilerplace of Angular2
-
-Node.js and npm are essential to Angular development.
-
-<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
-Get it now</a> if it's not already installed on your machine.
-
-**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
-by running `node -v` and `npm -v` in a terminal/console window.
-Older versions produce errors.
+This application was created from the QuickStart application of Angular2 https://angular.io/docs/ts/latest/quickstart.html
