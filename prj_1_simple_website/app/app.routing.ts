@@ -14,16 +14,14 @@ const appRoutes: Routes = [
   {
     path:'about',
     component: AboutComponent
-  }
-  ,
+  },
   {
     path:'contact',
     component: ContactComponent
-  }
-  ,
+  },
   {
-      path: 'universe',
-      component: UniverseComponent
+    path: 'universe',
+    component: UniverseComponent
   }
 ];
 
