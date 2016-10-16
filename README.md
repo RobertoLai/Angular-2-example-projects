@@ -1,6 +1,13 @@
 # Angular2 projects
 
-A series of simple projects developed mainly with the Angular2 framework
+A series of simple projects developed mainly with the Angular2 framework.
+I will upload about 15 little projects.
+
+The ideas for the projects come from books or online courses about angularJS, Angular2, ReactJS, etc. that I read
+but usually the applications are redesigned by me and differ from them.
+At present they represent only my own explorations of the Angular2 framework and no quality code is to be expected from them.
+
+I will updated them following the style guides later.
 
 
 ## Infos and Prerequisites

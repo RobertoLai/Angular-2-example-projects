@@ -8,7 +8,7 @@ export class FootComponent {
   private footContent:string;
 
   constructor(){
-    this.footContent = "2016 Company, Inc. ";
+    this.footContent = "2016 Roberto Lai ";
   }
 
 }

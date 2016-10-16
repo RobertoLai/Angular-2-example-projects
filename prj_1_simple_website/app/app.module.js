@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var forms_1 = require('@angular/forms');
 var app_component_1 = require('./app.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
@@ -17,6 +18,7 @@ var about_component_1 = require('./components/pages/about.component');
 var home_component_1 = require('./components/pages/home.component');
 var contact_component_1 = require('./components/pages/contact.component');
 var universe_component_1 = require('./components/pages/universe.component');
+var subscribe_component_1 = require('./components/pages/subscribe.component');
 var foot_component_1 = require('./components/foot/foot.component');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -24,7 +26,10 @@ var AppModule = (function () {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, app_routing_1.routing],
+            imports: [
+                platform_browser_1.BrowserModule,
+                app_routing_1.routing,
+                forms_1.FormsModule],
             declarations: [
                 app_component_1.AppComponent,
                 navbar_component_1.NavbarComponent,
@@ -33,7 +38,8 @@ var AppModule = (function () {
                 home_component_1.HomeComponent,
                 foot_component_1.FootComponent,
                 contact_component_1.ContactComponent,
-                universe_component_1.UniverseComponent
+                universe_component_1.UniverseComponent,
+                subscribe_component_1.SubscribeComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

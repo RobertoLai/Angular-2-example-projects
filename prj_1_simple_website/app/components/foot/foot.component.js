@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var FootComponent = (function () {
     function FootComponent() {
-        this.footContent = "2016 Company, Inc. ";
+        this.footContent = "2016 Roberto Lai ";
     }
     FootComponent = __decorate([
         core_1.Component({

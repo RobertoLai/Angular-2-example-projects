@@ -1,0 +1,59 @@
+
+.artist-header{
+  padding-bottom:20px;
+  margin-bottom:20px;
+  border-bottom: 1px solid black;
+}
+
+.artist-thumb{
+  width:140px;
+  height:auto;
+  float:left;
+  margin-right:5%;
+  margin-left:5%;
+  }
+
+.artist-albums .well{
+  overflow: auto;
+  min-height: 320px;
+  clear:both;
+  color: white;
+}
+
+.artist-albums .well .album-thumb{
+  width: 200px;
+  height:auto;
+  margin:10px;
+}
+
+.album-header{
+  margin-bottom:20px;
+  background: #333;
+  color: white;
+}
+
+.album{
+  text-align:center;
+  background:#333;
+  padding:10px 10px;
+  border: 1px solid #666;
+}
+.album-header .album-thumb{
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+.album-tracks{
+  padding:10px;
+  background:#333;
+  color:white;
+}
+.album-tracks .well{
+  color: #333;
+}
+.album-tracks .well-sm h5{
+  font-weight: bold;
+}
+.album-tracks .well-sm a{
+  margin-left: 20px;
+}

@@ -4,6 +4,7 @@ var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
 var contact_component_1 = require('./components/pages/contact.component');
 var universe_component_1 = require('./components/pages/universe.component');
+var subscribe_component_1 = require('./components/pages/subscribe.component');
 var appRoutes = [
     {
         path: '',
@@ -20,6 +21,14 @@ var appRoutes = [
     {
         path: 'universe',
         component: universe_component_1.UniverseComponent
+    },
+    {
+        path: 'subscribe',
+        component: subscribe_component_1.SubscribeComponent
+    },
+    {
+        path: '**',
+        component: home_component_1.HomeComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

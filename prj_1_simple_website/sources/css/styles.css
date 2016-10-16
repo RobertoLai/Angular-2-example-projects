@@ -31,3 +31,8 @@ body {
 .footer .container {
   padding-top:20px;
 }
+
+#joke img{
+  float:left;
+  margin-right: 10px;
+}
